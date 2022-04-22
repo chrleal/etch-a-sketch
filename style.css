@@ -1,0 +1,35 @@
+body{
+    max-height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 217, 0);
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    gap: 1px;
+    border: 1px solid black;
+}
+
+.elementGrid {
+    background-color: white;
+}
+
+.clear {
+    margin-bottom: 16px;
+}
