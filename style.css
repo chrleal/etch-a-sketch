@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
     max-height: 100vh;
-    margin: 0;
     background-color: rgb(255, 217, 0);
-    font-family: Roboto, sans-serif;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 header{
     text-align: center;
-    font-size: 40px;
-    margin: 40px;
+    font-size: 110px;
+    margin: 20px;
 }
 
 .flexContainer {
@@ -30,6 +35,21 @@ header{
     background-color: white;
 }
 
-.clear {
-    margin-bottom: 16px;
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
 }
